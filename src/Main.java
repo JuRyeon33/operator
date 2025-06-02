@@ -18,6 +18,5 @@ public class Main {
 
         b %= 3;
         System.out.println(b); // 1
-
     }
 }
