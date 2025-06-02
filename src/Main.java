@@ -2,19 +2,22 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
-        int a = 10, b = 3;
+        int a = 10, b = 15;
 
-        int sum = a + b;
-        int difference = a - b;
-        int product = a * b;
-        int quotient = a / b;
-        int remainder = a % b;
+        a += 5;
+        System.out.println(a); // 15
 
-        System.out.println(sum);
-        System.out.println(difference);
-        System.out.println(product);
-        System.out.println(quotient);
-        System.out.println(remainder);
+        b -= 5;
+        System.out.println(b); // 10
+
+        b *= 5;
+        System.out.println(b); // 50
+
+        b /= 2;
+        System.out.println(b); // 25
+
+        b %= 3;
+        System.out.println(b); // 1
 
     }
 }
